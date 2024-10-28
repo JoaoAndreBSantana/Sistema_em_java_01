@@ -5,4 +5,8 @@ public class Filme {
     public Filme(String filme){
         this.filme = filme;
     }
+
+    public String getFilme() {
+        return filme;
+    }
 }
