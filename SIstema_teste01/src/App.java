@@ -12,7 +12,7 @@ public class App {
         
         System.out.println("ESCOLHAS:\nGerenciar filme(1)");
         condicao = entrada.nextInt();
-
+ 
         if(condicao==1){
             sala1.gerenciarfilme();
             sala1.apresentarfilme();
