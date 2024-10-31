@@ -1,2 +1,1 @@
-# Sistema_em_java_01
- Testando POO com github
+sistema de cinema em java usando Scanner
