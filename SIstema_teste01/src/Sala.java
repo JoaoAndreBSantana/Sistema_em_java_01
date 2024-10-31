@@ -4,11 +4,11 @@ public class Sala {
   
 
     String cod;
-    Filme filme1;
+    Filme filme1;//unico filme
     
  
 
-    public Sala(String cod){
+    public Sala(String cod){//coonstutor com o codigo ou nuemro dela
       this.cod=cod;
     }
 

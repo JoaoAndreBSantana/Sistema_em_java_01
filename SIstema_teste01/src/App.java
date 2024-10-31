@@ -8,16 +8,17 @@ public class App {
     
     
         System.out.println("--SISTEMA DE CINEMA--");
+        System.out.println("----------------------");
         while(true){
-        System.out.println("ESCOLHAS:\ngerenciar filme(1)");
+        System.out.println("ESCOLHAS:\n------------------\nGERENCIAR FILME(1)");
        // System.out.println("apresentar filme(2)");
-        System.out.println("sair(3)");
+        System.out.println("SAIR(3)");
         condicao = entrada.nextInt();
        
 
         if(condicao==1){
             sala1.gerenciarfilme();
-            System.out.println("DESEJA APRESENTAR SUA SALA?\n sim(1)\nnao(2)");
+            System.out.println("DESEJA APRESENTAR SEU FILME CADASTRADO?\n sim(1)\nnao(2)");
             op= entrada.nextInt();
             switch (op) {
                 case 1:
