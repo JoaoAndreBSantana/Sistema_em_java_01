@@ -33,7 +33,6 @@ public class Sala {
        filme1= new Filme(nome, genero, duracao,codigo);
 
 
-
     }
 
     public void apresentarfilme(){
